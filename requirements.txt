@@ -1,0 +1,26 @@
+# reasoning-metacog requirements
+# Pin versions matching pre-registration
+
+# Core inference (install separately — requires system-level build)
+# llama-cpp-python>=0.3.0  # Install with Vulkan/ROCm support per your system
+
+# Analysis
+metadpy==0.1.2
+scikit-learn>=1.5.0
+scipy>=1.12.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Scoring
+python-Levenshtein>=0.25.0
+
+# Data
+datasets>=2.19.0  # For TriviaQA loading from HuggingFace
+
+# Utilities
+tqdm>=4.66.0
+jsonlines>=4.0.0
+
+# Plotting (for results)
+matplotlib>=3.8.0
+seaborn>=0.13.0
